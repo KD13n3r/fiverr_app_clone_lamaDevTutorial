@@ -41,7 +41,7 @@ const Navbar = () => {
           {!currentUser && <button>Join</button>}
           {currentUser && (
             <div className="user">
-              <img src="" alt="" />
+              <img src="https://images.pexels.com/photos/1115697/pexels-photo-1115697.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="" />
               <span>{currentUser.username}</span>
               <div className="options">
                 {currentUser?.isSeller && (
