@@ -47,13 +47,13 @@ const Navbar = () => {
               {open && <div className="options">
                 {currentUser?.isSeller && (
                   <>
-                    <Link>Gigs</Link>
-                    <Link>Add New Gig</Link>
+                    <Link className="link" to="/mygigs">Gigs</Link>
+                    <Link className="link" to="/add">Add New Gig</Link>
                   </>
                 )}
-                <Link>Orders</Link>
-                <Link>Messages</Link>
-                <Link>Logout</Link>
+                <Link className="link" to="/orders">Orders</Link>
+                <Link className="link" to="/messages">Messages</Link>
+                <Link className="link" to="/">Logout</Link>
               </div>}
             </div>
           )}
