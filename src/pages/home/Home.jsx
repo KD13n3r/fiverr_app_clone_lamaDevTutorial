@@ -16,6 +16,9 @@ const Home = () => {
           <CatCard key={card.id} item={card}/>
         ))}
       </Slide>
+      <div className='features'>
+        
+      </div>
     </div>
   )
 }
