@@ -5,14 +5,14 @@ import "./ProjectCard.scss";
 
 const ProjectCard = ({ item }) => {
   return (
-    <Link to="/">
+    <Link to="/" className="link">
       <div className="projectCard">
       <img src={item.img} alt=""/>
       <div className="info">
         <img src={item.pp} alt=""/>
         <div className="texts">
           <h2>{item.cat}</h2>
-          <span>{item.udername}</span>
+          <span>{item.username}</span>
         </div>
       </div>
       </div>

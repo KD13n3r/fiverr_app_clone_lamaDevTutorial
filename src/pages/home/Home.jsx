@@ -5,6 +5,7 @@ import TrustedBy from "../../components/trustedBy/TrustedBy";
 import Slide from "../../components/slide/Slide";
 import { cards, projects } from "../../data";
 import CatCard from "../../components/catCard/CatCard";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 
 const Home = () => {
   return (
@@ -90,9 +91,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Slide slidesToShow={5} arrowsScroll={5}>
+      <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => (
-          <CatCard key={card.id} item={card} />
+          <ProjectCard key={card.id} item={card} />
         ))}
       </Slide>
     </div>
