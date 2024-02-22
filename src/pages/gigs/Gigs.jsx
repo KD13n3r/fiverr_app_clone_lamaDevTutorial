@@ -1,8 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useState } from "react";
 import "./Gigs.scss";
 
 const Gigs = () => {
+  const [sort, setSort] = useState("sales");
+  const [open, setOpen] = useState(false);
+
+  const reSort = (type) => {
+    setSort(type);
+    setOpen(false);
+  };
+
   return (
     <div className="gigs">
       <div className="container">
@@ -22,12 +30,19 @@ const Gigs = () => {
           </div>
           <div className="right">
             <span className="sortBy">SortBy</span>
-            <span className="sortType">Best Selling</span>
-            <img src="./img/down.png" alt=""/>
-            <div className="rightMenu">
-              <span>Newest</span>
-              <span>Best Selling</span>
-            </div>
+            <span className="sortType">
+              {sort === "sales" ? "Best Selling" : "Newest"}
+            </span>
+            <img src="./img/down.png" alt="" onClick={() => setOpen(!open)} />
+            {open && (
+              <div className="rightMenu">
+                {sort === "sales" ? (
+                  <span onClick={() => reSort("createdAt")}>Newest</span>
+                ) : (
+                  <span onClick={() => reSort("sales")}>Best Selling</span>
+                )}
+              </div>
+            )}
           </div>
         </div>
       </div>
