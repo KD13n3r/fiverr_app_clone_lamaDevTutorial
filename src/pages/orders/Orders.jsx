@@ -84,9 +84,9 @@ const Orders = () => {
             <td>88</td>
             <td>123</td>
             <td>
-              <button>
+              
                 <img className="delete" src="/img/message.png" alt="" />
-              </button>
+              
             </td>
           </tr>
           <tr>
