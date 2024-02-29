@@ -22,14 +22,66 @@ const MyGigs = () => {
           </tr>
           <tr>
             <td>
-              <img src='https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600' alt=''/>
+              <img className='img' src='https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600' alt=''/>
             </td>
             <td>Gig1</td>
             <td>88</td>
             <td>123</td>
             <td>
               <button>
-                <img src='/img/delete.png' alt=''/>
+                <img className='delete' src='/img/delete.png' alt=''/>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className='img' src='https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600' alt=''/>
+            </td>
+            <td>Gig1</td>
+            <td>88</td>
+            <td>123</td>
+            <td>
+              <button>
+                <img className='delete' src='/img/delete.png' alt=''/>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className='img' src='https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600' alt=''/>
+            </td>
+            <td>Gig1</td>
+            <td>88</td>
+            <td>123</td>
+            <td>
+              <button>
+                <img className='delete' src='/img/delete.png' alt=''/>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className='img' src='https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600' alt=''/>
+            </td>
+            <td>Gig1</td>
+            <td>88</td>
+            <td>123</td>
+            <td>
+              <button>
+                <img className='delete' src='/img/delete.png' alt=''/>
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img className='img' src='https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600' alt=''/>
+            </td>
+            <td>Gig1</td>
+            <td>88</td>
+            <td>123</td>
+            <td>
+              <button>
+                <img className='delete' src='/img/delete.png' alt=''/>
               </button>
             </td>
           </tr>
