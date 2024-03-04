@@ -35,7 +35,13 @@ const Add = () => {
             ></textarea>
             <button>Create</button>
           </div>
-          <div className="right"></div>
+          <div className="right">
+            <label htmlFor="">Service Title</label>
+            <label htmlFor="">Short Description</label>
+            <label htmlFor="">Service Title</label>
+            <label htmlFor="">Service Title</label>
+            <label htmlFor="">Service Title</label>
+          </div>
         </div>
       </div>
     </div>
