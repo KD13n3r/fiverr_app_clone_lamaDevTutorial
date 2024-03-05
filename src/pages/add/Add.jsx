@@ -38,7 +38,7 @@ const Add = () => {
           <div className="right">
             <label htmlFor="">Service Title</label>
             <label htmlFor="">Short Description</label>
-            <label htmlFor="">Service Title</label>
+            <label htmlFor="">Delivery Time (e.g 3 days)</label>
             <label htmlFor="">Service Title</label>
             <label htmlFor="">Service Title</label>
           </div>
