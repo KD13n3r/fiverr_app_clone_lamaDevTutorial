@@ -37,10 +37,20 @@ const Add = () => {
           </div>
           <div className="right">
             <label htmlFor="">Service Title</label>
+            <input type="text" placeholder="e.g. One-page web design"/>
             <label htmlFor="">Short Description</label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Short description of your service"></textarea>
             <label htmlFor="">Delivery Time (e.g 3 days)</label>
-            <label htmlFor="">Service Title</label>
-            <label htmlFor="">Service Title</label>
+            <input type="number" min={1}/>
+            <label htmlFor="">Revision Number</label>
+            <input type="number" min={1}/>
+            <label htmlFor="">Add Features</label>
+            <input type="text" placeholder="e.g. page design"/>
+            <input type="text" placeholder="e.g. file uploading"/>
+            <input type="text" placeholder="e.g setting up a domain"/>
+            <input type="text" placeholder="e.g. hosting"/>
+            <label htmlFor="">Price</label>
+            <input type="number" min={1}/>
           </div>
         </div>
       </div>
